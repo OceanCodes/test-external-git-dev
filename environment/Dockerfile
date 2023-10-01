@@ -1,5 +1,5 @@
-# hash:sha256:eb320f8d50a0c3eea0ddd8775c49f0855b7979ec8a9e982749701c0fb2665d23
-FROM registry.rc-eucentral1.acmecorp.codeocean.dev/codeocean/py-r:python3.10.12-R4.2.3-IRkernel-ubuntu22.04
+# hash:sha256:75f69a36908b4b139a7fcae77039088daeb671a0d8e89b49f4b9aee9b4790562
+FROM registry.rc-upgrade-v-2.acmecorp.codeocean.dev/codeocean/mambaforge3:22.11.1-4-ubuntu22.04
 
 ARG DEBIAN_FRONTEND=noninteractive
 
