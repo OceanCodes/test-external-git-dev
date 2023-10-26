@@ -1,5 +1,6 @@
-# hash:sha256:2eec4ac5b47924b1b825de78a78bdb40748cfdec0b75cbde948826537128d741
-FROM registry.rc-upgrade-v-1.gcp.codeocean.dev/codeocean/mambaforge3:22.11.1-4-ubuntu22.04
+# hash:sha256:a080a7587987cec03ac9635af85399095ce9d1f1998d14da1dbc17010461b5b0
+ARG REGISTRY_HOST
+FROM $REGISTRY_HOST/codeocean/mambaforge3:22.11.1-4-ubuntu22.04
 
 ARG DEBIAN_FRONTEND=noninteractive
 
