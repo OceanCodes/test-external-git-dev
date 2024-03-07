@@ -1,0 +1,9 @@
+# hash:sha256:e0e63428d26fa1f4af89f2efa07d9112362ed1911ae4433c32dc97ddf088943c
+ARG REGISTRY_HOST
+FROM $REGISTRY_HOST/codeocean/py-r:python3.10.12-R4.2.3-IRkernel-ubuntu22.04
+
+ARG DEBIAN_FRONTEND=noninteractive
+
+ARG GIT_ASKPASS
+ARG GIT_ACCESS_TOKEN
+COPY git-askpass /
